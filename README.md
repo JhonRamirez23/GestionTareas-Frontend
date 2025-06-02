@@ -1,59 +1,67 @@
-# Ejercicio1Vista
+# Vista Sistema Gestión de Tareas
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.14.
+Este proyecto fue generado usando [Angular CLI](https://github.com/angular/angular-cli) versión 19.2.14.
 
-## Development server
+## Servidor de desarrollo
 
-To start a local development server, run:
+Para iniciar un servidor local, correr:
 
 ```bash
 ng serve
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+Una vez el servidor está corriendo, abrir el navegador en `http://localhost:4200/`. La aplicación automáticamente se recargará cuando haga cambios.
 
-## Code scaffolding
+## Tabla de contenido
+* [Versión de Angular](#version-de-angular)
+* [Instalación del proyecto](#instalacion-de-dependencias-en-angular)
+* [Scaffolding del proyecto](#scaffolding-del-proyecto)
+* [Pruebas unitarias](#pruebas-unitarias)
+* [Créditos](#creditos)
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+## Versión de Angular
 
-```bash
-ng generate component component-name
-```
+Se usa la versión de Angular 19.2.14 para el desarrollo, usando routing y SSR. 
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
+Para ver la versión instalada, se puede ejecutar lo siguiente:
 
 ```bash
-ng build
+ng version
 ```
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+## Instalación de dependencias en Angular
 
-## Running unit tests
+Para instalar las dependencias necesarias para el proyecto, ejecutar lo siguiente:
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+```bash
+npm install
+```
+
+## Scaffolding del proyecto
+
+El scaffolding del proyecto para el frontend es el siguiente:
+
+src/
+└── app/
+    ├── domain/
+    │   ├── model
+    │   └── interface
+    ├── infrastructure/
+    │   └── service
+    └── presentation/
+        ├── components
+        ├── pages
+        ├── shared
+        └── layouts
+
+## Pruebas unitarias
+
+Para ejecutar las pruebas unitarias con [Karma](https://karma-runner.github.io), use el siguiente comando:
 
 ```bash
 ng test
 ```
 
-## Running end-to-end tests
+## Créditos
 
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Desarrollo por [Jhon Dev](https://jhonramirez23.github.io/JhonRamirez/)
