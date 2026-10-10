@@ -41,6 +41,7 @@ npm install
 
 El scaffolding del proyecto para el frontend es el siguiente:
 
+```bash
 src/
 └── app/
     ├── domain/
@@ -53,6 +54,7 @@ src/
         ├── pages
         ├── shared
         └── layouts
+```
 
 ## Pruebas unitarias
 
